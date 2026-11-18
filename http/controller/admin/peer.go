@@ -117,6 +117,12 @@ func (ct *Peer) List(c *gin.Context) {
 		if query.Alias != "" {
 			tx.Where("alias like ?", "%"+query.Alias+"%")
 		}
+		if query.UserId > 0 {
+			tx.Where("user_id = ?", query.UserId)
+		}
+		if query.LoginUsername != "" {
+			tx.Where("user_id in (select id from users where username = ?)", query.LoginUsername)
+		}
 	})
 	response.Success(c, res)
 }
