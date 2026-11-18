@@ -89347,17 +89347,17 @@ r.r.$0()}},
 $S:0}
 A.aEN.prototype={
 $2(a,b){var s=null,r=t.D
-return new A.dT(A.aq(A.ac("About")+" پشتیبان تدبیر",s,s,s,s,s,s,s),A.UE(B.c0,A.a([A.aq("Version: "+$.aRM,s,s,s,s,s,s,s),A.o5(!1,s,!0,new A.bD(new A.ap(0,8,0,8),A.aq("rustdesk.com",s,s,s,s,A.bG(s,s,s,s,B.na,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),s),s,!0,s,s,s,s,s,s,s,s,s,new A.aEM(),s,s,s,s,s,s)],r),B.eU,B.ad,B.c0,0,12,s,B.bv),A.a([],r),s,s)},
+return new A.dT(A.aq(A.ac("About")+" پشتیبان تدبیر",s,s,s,s,s,s,s),A.UE(B.c0,A.a([A.aq("Version: "+$.aRM,s,s,s,s,s,s,s),A.o5(!1,s,!0,new A.bD(new A.ap(0,8,0,8),A.aq("tadbir.biz",s,s,s,s,A.bG(s,s,s,s,B.na,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),s),s,!0,s,s,s,s,s,s,s,s,s,new A.aEM(),s,s,s,s,s,s)],r),B.eU,B.ad,B.c0,0,12,s,B.bv),A.a([],r),s,s)},
 $S:34}
 A.aEM.prototype={
 $0(){var s=0,r=A.H(t.H)
 var $async$$0=A.I(function(a,b){if(a===1)return A.E(b,r)
 while(true)switch(s){case 0:s=4
-return A.L(A.a2H(A.hI("https://rustdesk.com/",0,null)),$async$$0)
+return A.L(A.a2H(A.hI("https://tadbir.biz/",0,null)),$async$$0)
 case 4:s=b?2:3
 break
 case 2:s=5
-return A.L(A.a2Q(A.hI("https://rustdesk.com/",0,null)),$async$$0)
+return A.L(A.a2Q(A.hI("https://tadbir.biz/",0,null)),$async$$0)
 case 5:case 3:return A.F(null,r)}})
 return A.G($async$$0,r)},
 $S:9}
